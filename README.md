@@ -11,7 +11,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 * Bounce on mouse out
 * Automatic sizing of fonts based on the width of chart container
 #### Illustration
-![](./lib/donut_chart/donut_chart.gif =400x)
+<img src="./lib/donut_chart/donut_chart.gif" width="400">
 #### Usage
 ```
 <head>
@@ -76,7 +76,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 * Interactive
 * Supports onclick attributes
 #### Illustration
-![](./lib/scatter_plot/scatter_plot.gif =400x)
+<img src="./lib/scatter_plot/scatter_plot.gif" width="400">
 #### Usage
 ```
 <head>
@@ -161,7 +161,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 * Heavily inspired by the works of [Jason Davies](http://www.jasondavies.com/word-cloud/) and [Jonathan Feinberg](http://static.mrfeinberg.com/bv_ch03.pdf)
 * Words can be colored and grouped by category
 #### Illustration
-![](./lib/word_cloud/word_cloud.gif =400x)
+<img src="./lib/word_cloud/word_cloud.gif" width="400">
 #### Usage
 ```
 <head>
@@ -205,7 +205,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 * Inspired by the work of [Mike Bostock](https://bl.ocks.org/mbostock/7607999) with minor improvements
 * Hovering over a node will color the out edges and display the weight
 #### Illustration
-![](./lib/edge_bundling/edge_bundling.gif =400x)
+<img src="./lib/edge_bundling/edge_bundling.gif" width="400">
 #### Usage
 ```
 <head>
