@@ -1,0 +1,16 @@
+.d3_donut_svg{
+  font-family: inherit;
+}
+.d3_donut_svg .center_text{
+  text-anchor: middle;
+}
+.d3_donut_svg .center_subtext{
+  text-anchor: middle;
+}
+.d3_donut_svg .center_circle{
+  opacity: 0.2;
+}
+.d3_donut_svg .donut_segment{
+  stroke: #FFFFFF;
+  cursor: pointer;
+}

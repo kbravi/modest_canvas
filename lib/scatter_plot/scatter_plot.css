@@ -1,0 +1,44 @@
+.d3_scatterplot{
+  position: relative;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.d3_scatterplot .axis path,.d3_scatterplot .axis line{
+  shape-rendering: crispEdges;
+  stroke-width: 3px;
+  stroke: #263e4d;
+}
+.d3_scatterplot .axis .label, .d3_scatterplot .axis text{
+  fill: #263e4d;
+  font-size: 140%;
+}
+.d3_scatterplot .axis text{
+  font-size: 100%;
+}
+
+.d3_scatterplot .legend text{
+  fill: #263e4d;
+  font-size: 110%;
+}
+.d3_scatterplot .dot{
+  stroke: #000;
+  cursor: pointer;
+}
+
+.d3_scatterplot .dot:hover{
+  fill: yellow !important;
+}
+
+.d3_scatterplot .tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #a7a7a7;
+  border: 1px solid #a7a7a7;
+  z-index: 1;
+  padding: 2px 5px;
+  line-height: 14px;
+  font-size: 13px;
+  border-radius: 5px;
+  color: white;
+}

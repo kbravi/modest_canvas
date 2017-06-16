@@ -1,0 +1,39 @@
+.d3_edge_bundling .node {
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 15px;
+  fill: #7c68a9;
+}
+.d3_edge_bundling .node:hover {
+  fill: black;
+}
+.d3_edge_bundling .link {
+  stroke: #a89bc6;
+  stroke-opacity: .5;
+  fill: none;
+  pointer-events: none;
+}
+.d3_edge_bundling .node:hover, .d3_edge_bundling .node--source, .d3_edge_bundling  .node--target {
+  font-weight: 700;
+}
+.d3_edge_bundling .node--source, .d3_edge_bundling  .node--target {
+  fill: #2ca02c;
+}
+.d3_edge_bundling .link--source, .d3_edge_bundling .link--target {
+  stroke-opacity: 1;
+  stroke: #249424;
+}
+.d3_edge_bundling .link--trivial{
+  stroke-opacity: 0.1;
+}
+.d3_edge_bundling .node--trivial{
+  fill-opacity: 0.3;
+}
+.d3_edge_bundling .textpath{
+  font-size: 0px;
+  font-weight: 500;
+  fill: #151515;
+}
+.d3_edge_bundling .textpath--show{
+  font-size: 14px;
+}

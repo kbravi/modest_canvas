@@ -1,0 +1,13 @@
+.d3_word_cloud{
+  font-family: inherit;
+  font-size: 10px;
+  color: #696969;
+}
+.d3_word_cloud .categories_axis{
+  font-size: 150%;
+  font-family: inherit;
+}
+.d3_word_cloud .word{
+  font-family: inherit;
+  font-weight: 700;
+}
