@@ -158,7 +158,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 ```
 
 ### Word Cloud
-* Heavily inspired by the works of [Jason Davies](http://www.jasondavies.com/word-cloud/) and (Jonathan Feinberg)[http://static.mrfeinberg.com/bv_ch03.pdf]
+* Heavily inspired by the works of [Jason Davies](http://www.jasondavies.com/word-cloud/) and [Jonathan Feinberg](http://static.mrfeinberg.com/bv_ch03.pdf)
 * Words can be colored and grouped by category
 #### Illustration
 ![](./lib/word_cloud/word_cloud.gif)
