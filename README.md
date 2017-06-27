@@ -31,18 +31,21 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
         category: "California",
         value: 256,
         color: '#428ab5',
-        onclick: "console.log('clicked California');"
+        onclick: "console.log('clicked California');",
+        center_subtext: "Category: California"
       },
       {
         category: "Oregon",
         value: 123,
         color: '#A7A7A7',
-        onclick: "console.log('clicked Oregon');"
+        onclick: "console.log('clicked Oregon');",
+        center_subtext: "Category: Oregon"
       },
       {
         category: "Unknown",
         value: 55,
-        color: "#CECECE"
+        color: "#CECECE",
+        center_subtext: "Category: Unknown"        
       }
     ],
     center_text: {
