@@ -13,6 +13,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 #### Illustration
 ![](./lib/donut_chart/donut_chart.gif)
 #### Usage
+[jsfiddle](https://jsfiddle.net/kbravi/91xacn0o/)
 ```
 <head>
   <script type="text/javascript" src="//path/to/d3.v4.min.js"></script>
@@ -81,6 +82,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 #### Illustration
 ![](./lib/scatter_plot/scatter_plot.gif)
 #### Usage
+[jsfiddle](https://jsfiddle.net/kbravi/7k0umn2q/)
 ```
 <head>
   <script type="text/javascript" src="//path/to/d3.v4.min.js"></script>
@@ -131,7 +133,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
       enabled: true,
       x: {
         label: "Polarity",
-        custom_ticks: {"-1" => "Negative", "0" => "Neutral", "1" => "Positive"}
+        custom_ticks: {"-1": "Negative", "0": "Neutral", "1": "Positive"}
       },
       y: {
         label: "Magnitude"
@@ -153,7 +155,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
   }
   var options = {
     // Automatically create a color gradient for the circles
-    minCircleFillColor: "#000000,
+    minCircleFillColor: "#000000",
     maxCircleFillColor: "#BBBBBB",
   }
   ModestCanvas.scatterPlot(".chart_container", dataJson, options);
@@ -166,6 +168,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 #### Illustration
 ![](./lib/word_cloud/word_cloud.gif)
 #### Usage
+[jsfiddle](https://jsfiddle.net/kbravi/9w4vymz6/)
 ```
 <head>
   <script type="text/javascript" src="//path/to/d3.v4.min.js"></script>
@@ -193,12 +196,28 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
       category: 'Animals',
       word: 'Snow Leopard',
       frequency: 22
+    },
+    {
+      category: 'Animals',
+      word: 'Fox',
+      frequency: 3,
+    },
+    {
+      category: 'Birds',
+      word: 'Parrot',
+      frequency: 99
+    },
+    {
+      category: 'Animals',
+      word: 'Rabbit',
+      frequency: 939
     }
   ]
   var options = {
     // Automatically create a color gradient for the words based on categories
-    minCategoryFillColor: "#000000,
+    minCategoryFillColor: "#000000",
     maxCategoryFillColor: "#BBBBBB",
+    hideCategoryAxis: true
   }
   ModestCanvas.wordCloud(".chart_container", dataJson, options);
 </script>
@@ -210,6 +229,7 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 #### Illustration
 ![](./lib/edge_bundling/edge_bundling.gif)
 #### Usage
+[jsfiddle](https://jsfiddle.net/kbravi/L7f4e7t5/)
 ```
 <head>
   <script type="text/javascript" src="//path/to/d3.v4.min.js"></script>
