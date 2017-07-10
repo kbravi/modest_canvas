@@ -1,11 +1,10 @@
 # Modest Canvas
 Some useful chart modules using [d3js](https://d3js.org) (v4).
 
-## Charts
 * Renders svg, so no loss of resolution when zoomed
 * Supports window resize and adapts to the width of the parent
 
-### Donut Chart
+## Donut Chart
 * Create pretty interactive donut charts
 * Supports onclick attributes
 * Bounce on mouse out
@@ -76,7 +75,8 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 </script>
 ```
 
-### Scatter Plot
+
+## Scatter Plot
 * Interactive
 * Supports onclick attributes
 #### Illustration
@@ -162,7 +162,8 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 </script>
 ```
 
-### Word Cloud
+
+## Word Cloud
 * Heavily inspired by the works of [Jason Davies](http://www.jasondavies.com/word-cloud/) and [Jonathan Feinberg](http://static.mrfeinberg.com/bv_ch03.pdf)
 * Words can be colored and grouped by category
 #### Illustration
@@ -223,7 +224,8 @@ Some useful chart modules using [d3js](https://d3js.org) (v4).
 </script>
 ```
 
-### Edge Bundling
+
+## Edge Bundling
 * Inspired by the work of [Mike Bostock](https://bl.ocks.org/mbostock/7607999) with minor improvements
 * Hovering over a node will color the out edges and display the weight
 #### Illustration
