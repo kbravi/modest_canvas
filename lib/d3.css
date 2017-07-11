@@ -1,0 +1,13 @@
+.d3_chart_container{
+  display: block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  svg{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
